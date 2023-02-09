@@ -1,0 +1,49 @@
+
+main h1, h2{
+    font-weight: 400;
+}
+
+main h3{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 50px;
+}
+
+.bio h2{
+    margin: 10px 0px 0px 0px;
+    font-size: 32px;
+    font-weight: 350;
+}
+
+.bio p{
+    font-weight: 300;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.bio-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bio-left a{
+    text-decoration: underline;
+}
+
+.bio-left img{
+    width: 300px;
+}
+
+.bio-right{
+    flex: 1;
+}
