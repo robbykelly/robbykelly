@@ -1,3 +1,8 @@
+main a{
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: underline;
+}
 
 main h1, h2{
     font-weight: 400;
